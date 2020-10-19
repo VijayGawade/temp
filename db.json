@@ -38,10 +38,10 @@
   ],
   "projects": [
     { "id": 1, "name": "Project A", "goc": 1 },
-    { "id": 1, "name": "Project B", "goc": 1 },
-    { "id": 1, "name": "Project C", "goc": 2 },
-    { "id": 1, "name": "Project D", "goc": 2 },
-    { "id": 1, "name": "Project E", "goc": 3 },
-    { "id": 1, "name": "Project F", "goc": 4 }
+    { "id": 2, "name": "Project B", "goc": 1 },
+    { "id": 3, "name": "Project C", "goc": 2 },
+    { "id": 4, "name": "Project D", "goc": 2 },
+    { "id": 5, "name": "Project E", "goc": 3 },
+    { "id": 6, "name": "Project F", "goc": 4 }
   ]
 }
