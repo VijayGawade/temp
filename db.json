@@ -1,0 +1,47 @@
+{
+  "divisions": [
+    { "id": 1, "name": "DTS" },
+    { "id": 2, "name": "Automobile" },
+    { "id": 3, "name": "Audio" },
+    { "id": 4, "name": "Telecom" }
+  ],
+  "sbu": [
+    { "id": 1, "name": "sbu_1.1", "division": 1 },
+    { "id": 2, "name": "sbu_1.2", "division": 1 },
+    { "id": 3, "name": "sbu_1.3", "division": 1 },
+    { "id": 4, "name": "sbu_2.1", "division": 2 },
+    { "id": 5, "name": "sbu_2.2", "division": 2 },
+    { "id": 6, "name": "sbu_2.3", "division": 2 },
+    { "id": 7, "name": "sbu_3.1", "division": 3 },
+    { "id": 8, "name": "sbu_3.2", "division": 3 },
+    { "id": 9, "name": "sbu_4.1", "division": 4 },
+    { "id": 10, "name": "sbu_4.2", "division": 4 }
+  ],
+  "bu": [
+    { "id": 1, "name": "BU 1.1.1", "sbu": 1 },
+    { "id": 2, "name": "BU 1.1.2", "sbu": 1 },
+    { "id": 3, "name": "BU 1.1.3", "sbu": 1 },
+    { "id": 4, "name": "BU 1.2.1", "sbu": 2 },
+    { "id": 5, "name": "BU 1.2.2", "sbu": 2 },
+    { "id": 6, "name": "BU 1.3.1", "sbu": 3 },
+    { "id": 7, "name": "BU 1.3.2", "sbu": 3 },
+    { "id": 8, "name": "BU 2.1.1", "sbu": 4 },
+    { "id": 9, "name": "BU 2.3.1", "sbu": 6 },
+    { "id": 10, "name": "BU 3.1.1", "sbu": 7 }
+  ],
+  "goc": [
+    { "id": 1, "name": "GOC A1", "bu": 1 },
+    { "id": 2, "name": "GOC A2", "bu": 1 },
+    { "id": 3, "name": "GOC A3", "bu": 1 },
+    { "id": 4, "name": "GOC B1", "bu": 2 },
+    { "id": 5, "name": "GOC B2", "bu": 2 }
+  ],
+  "projects": [
+    { "id": 1, "name": "Project A", "goc": 1 },
+    { "id": 1, "name": "Project B", "goc": 1 },
+    { "id": 1, "name": "Project C", "goc": 2 },
+    { "id": 1, "name": "Project D", "goc": 2 },
+    { "id": 1, "name": "Project E", "goc": 3 },
+    { "id": 1, "name": "Project F", "goc": 4 }
+  ]
+}
